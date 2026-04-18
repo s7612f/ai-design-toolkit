@@ -1,116 +1,91 @@
-# 🎨 AI Design Toolkit — Animated Website Builder Stack
+# AI Design Toolkit — Build Websites for Clients with AI
 
-> Everything from the video tutorial, organized for rapid deployment. Build animated AI-powered websites, grow your brand on social media, and land clients.
+> The complete system for building client websites using AI, deploying them for free, and landing paying clients through cold outreach. Two tiers: Claude Code for fast clean sites, Clo Design for animated showcase work.
 
 ---
 
-## 📦 What's In This Repo
+## Two-Tier Approach
+
+### Tier 1 — Claude Code (The Foundation)
+Build any client site through plain-English conversation. No code written manually. Output is clean custom HTML/CSS/JS — faster to load than WordPress, easier to maintain, and fully yours.
+
+**Best for:** Service businesses, professionals, anyone who needs a clean credible site fast.
+
+→ See [`guides/BUILDING_WEBSITES.md`](./guides/BUILDING_WEBSITES.md)
+
+### Tier 2 — Clo Design (Advanced)
+AI-powered animated website builder with live preview. Export as static HTML. Use for high-visual-impact sites — animated backgrounds, liquid glass UI, video sections.
+
+**Best for:** Gyms, agencies, creative businesses, your own portfolio posts on Twitter.
+
+→ See [`guides/BUILDING_WEBSITES.md#tier-2`](./guides/BUILDING_WEBSITES.md#tier-2--clo-design-the-advanced-version)
+
+---
+
+## Getting Clients
+
+Cold call local businesses with bad or no websites. Build a mockup first, then call with a live demo URL ready. Real scripts, objection handling, and pricing from documented sales frameworks.
+
+→ See [`guides/COLD_CALLING.md`](./guides/COLD_CALLING.md)
+
+---
+
+## What's in This Repo
 
 | File/Folder | What It Is |
 |---|---|
-| `README.md` | This file — full tool list + quickstart |
-| `guides/CLOUDFLARE.md` | Deploy your site to Cloudflare Pages (free) |
-| `guides/GIT_SETUP.md` | Initialize and push this repo via Claude Code |
-| `guides/CLAUDE_CODE_SETUP.md` | What API keys to give Claude Code and how |
-| `prompts/image-prompts.md` | All image/video generation prompts from the video |
+| `guides/BUILDING_WEBSITES.md` | **Start here** — two-tier build approach with real design principles |
+| `guides/COLD_CALLING.md` | Cold calling scripts, objection handling, pricing, targeting |
+| `guides/CLOUDFLARE.md` | Deploy your site to Cloudflare Pages (free, custom domain) |
+| `guides/GIT_SETUP.md` | Git basics for beginners |
+| `guides/CLAUDE_CODE_SETUP.md` | API keys and Claude Code setup |
 | `prompts/website-prompts.md` | Clo Design prompts for building sections |
-| `prompts/social-prompts.md` | Twitter/X post templates to go viral |
+| `prompts/image-prompts.md` | NanoBanana / Kling prompts for animated backgrounds |
+| `prompts/social-prompts.md` | Twitter/X post templates for client inbound |
 | `scripts/push-to-github.sh` | One-shot script to init + push repo |
 
 ---
 
-## 🛠 Full Tool Stack
+## The Full Tool Stack
 
-### 1. 🖥 Website Builder
-| Tool | Link | Cost | Purpose |
-|---|---|---|---|
-| **Clo Design** | [clo.ai/design](https://clo.ai/design) | Freemium | AI-powered animated website builder — the core tool |
-| **Motionsite.ai** | [motionsite.ai](https://motionsite.ai) | Free/Paid | Pre-built typography & layout inspiration sets |
+### Website Building
+| Tool | Cost | Purpose |
+|---|---|---|
+| **Claude Code** | Included with Claude | Tier 1 — build sites through conversation |
+| **Clo Design** | Freemium | Tier 2 — animated site builder with live preview |
+| **Motionsite.ai** | Free/Paid | Layout and typography reference |
 
----
+### Image & Video (for animated backgrounds)
+| Tool | Cost | Purpose |
+|---|---|---|
+| **NanoBanana 2** | Paid | 8K image generation and cleanup |
+| **Kling 3.0** | Free tier + Paid | Animate still images to looping video |
+| **Figma** | Free | Expand images with AI fill |
+| **Motionsites.ai/backgrounds** | Free | Pre-made animated video backgrounds |
 
-### 2. 🎥 Video & Image Generation
-| Tool | Link | Cost | Purpose |
-|---|---|---|---|
-| **NanoBanana 2** | [nanobanana.ai](https://nanobanana.ai) | Paid | Text-to-image / image editing (8K, background removal) |
-| **Kling 3.0 (Kling AI)** | [klingai.com](https://klingai.com) | Free tier + Paid | Animate still images into looping video (image-to-video) |
-| **Sora / Sideens** | [openai.com/sora](https://openai.com/sora) | Paid | Alt video animation tool mentioned as "Cedance/Sideens" |
-| **Motion Sites Backgrounds** | [motionsites.ai/backgrounds](https://motionsites.ai) | Free | Free pre-made animated video backgrounds |
+### Hosting & Deployment
+| Tool | Cost | Purpose |
+|---|---|---|
+| **GitHub Pages** | Free | Host static sites at yourusername.github.io |
+| **Cloudflare Pages** | Free | Deploy with CDN, custom domain |
+| **Mux** | Free tier | Host background videos, get CDN URL |
 
----
-
-### 3. 🎨 Design Tools
-| Tool | Link | Cost | Purpose |
-|---|---|---|---|
-| **Figma** | [figma.com](https://figma.com) | Free/Pro | Expand images, export assets, AI-powered fill (uses NanoBanana 2 under the hood) |
-| **Dribbble** | [dribbble.com](https://dribbble.com) | Free | UI inspiration / screenshot reference for AI |
-| **Pinterest** | [pinterest.com](https://pinterest.com) | Free | Layout inspiration for sections |
-
----
-
-### 4. 📸 Recording & Social Content
-| Tool | Link | Cost | Purpose |
-|---|---|---|---|
-| **Screen Studio** | [screen.studio](https://screen.studio) | Paid | Beautiful screen recordings with hover effects |
-| **CleanShot X** | [cleanshot.com](https://cleanshot.com) | Paid | Mac screenshot/recording tool (alt to Screen Studio) |
-| **Shots.so** | [shots.so](https://shots.so) | Free/Paid | Device mockup templates with animated backgrounds |
+### Social & Recording
+| Tool | Cost | Purpose |
+|---|---|---|
+| **Screen Studio** | Paid | Beautiful screen recordings (Mac) |
+| **Shots.so** | Free tier | Device mockups with animated backgrounds |
 
 ---
 
-### 5. ☁️ Hosting & Export
-| Tool | Link | Cost | Purpose |
-|---|---|---|---|
-| **Cloudflare Pages** | [pages.cloudflare.com](https://pages.cloudflare.com) | Free | Deploy exported site for free with CDN |
-| **Mux.com** | [mux.com](https://mux.com) | Free tier | Video hosting — get a CDN URL for background videos |
-| **GitHub** | [github.com](https://github.com) | Free | Version control + source for Cloudflare Pages deploy |
+## Quickstart
+
+1. Read [`guides/BUILDING_WEBSITES.md`](./guides/BUILDING_WEBSITES.md) — understand the two tiers and design principles
+2. Install Claude Code: `npm install -g @anthropic/claude-code`
+3. Build your first site — either through Claude Code conversation or Clo Design
+4. Deploy: push to GitHub → enable GitHub Pages, or follow [`guides/CLOUDFLARE.md`](./guides/CLOUDFLARE.md)
+5. Read [`guides/COLD_CALLING.md`](./guides/COLD_CALLING.md) and make your first 20 calls
 
 ---
 
-## ⚡ Quick Start (3 Steps)
-
-### Step 1 — Build Your Site
-1. Go to [clo.ai/design](https://clo.ai/design)
-2. Choose **Website** → describe your site
-3. Use prompts from [`prompts/website-prompts.md`](./prompts/website-prompts.md)
-4. Export as code (ZIP)
-
-### Step 2 — Deploy Free with Cloudflare
-See [`guides/CLOUDFLARE.md`](./guides/CLOUDFLARE.md)
-
-### Step 3 — Push to GitHub with Claude Code
-See [`guides/CLAUDE_CODE_SETUP.md`](./guides/CLAUDE_CODE_SETUP.md)
-
----
-
-## 🐦 The Twitter Growth Loop
-1. Build something visual with these tools
-2. Record with Screen Studio or CleanShot
-3. Wrap in Shots.so template
-4. Post on Twitter/X: `Clo Design + [model used]` → tag [@youraccount]
-5. Include a CTA in the **replies**, not the main post
-6. Repost others who use your prompts → compounds your reach
-
-> Posts following this format average **50K–300K views** per post per the tutorial creator.
-
----
-
-## 📁 Repo Structure
-
-```
-ai-design-toolkit/
-├── README.md                    ← You are here
-├── guides/
-│   ├── CLOUDFLARE.md            ← Deploy to Cloudflare Pages
-│   ├── GIT_SETUP.md             ← Git basics
-│   └── CLAUDE_CODE_SETUP.md     ← API keys + Claude Code workflow
-├── prompts/
-│   ├── image-prompts.md         ← NanoBanana / Kling prompts
-│   ├── website-prompts.md       ← Clo Design section prompts
-│   └── social-prompts.md        ← Twitter post templates
-└── scripts/
-    └── push-to-github.sh        ← Auto-push script
-```
-
----
-
-*Repo assembled from video tutorial. Tools listed are third-party — check their individual pricing pages for current plans.*
+*Tools listed are third-party — check their pricing pages for current plans. Design and sales guidance cites NN/g, Smashing Magazine, A List Apart, and documented sales research — sources linked in each guide.*
